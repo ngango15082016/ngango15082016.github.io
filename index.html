@@ -75,13 +75,8 @@ function statusChangeCallback(response) {
 
 </script>
     <h1>Test Login Facebook</h1>
-    <div>
-        
-        <fb:login-button 
-            scope="public_profile,email"
-            onlogin="checkLoginState();">
-        </fb:login-button>
-    </div>
+    
+    <div class="fb-login-button" data-scope= "public_profile,email" data-width="" data-size="medium" data-button-type="login_with" data-auto-logout-link="true" data-use-continue-as="false" data-onlogin="checkLoginState();"></div>
     <div id = "status"></>
 </body>
 </html>
